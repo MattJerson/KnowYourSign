@@ -1,0 +1,73 @@
+Zodiac = input("Enter your Zodiac:").lower()
+Dict = {"sAries": "Signs of your Zodiac: Ram",
+        "bdAries": "Your birth months is from (March 21-April 19)",
+        "sTaurus": "Signs of your Zodiac: Bull",
+        "bdTaurus": "Your birth months is from (April 20-May 20)",
+        "sGemini": "Signs of your Zodiac: Twins",
+        "bdGemini": "Your birth months is from (May 21-June 21)",
+        "sCancer": "Signs of your Zodiac: Crab",
+        "bdCancer": "Your birth months is from (June 22-July 22)",
+        "sLeo": "Signs of your Zodiac: Lion",
+        "bdLeo": "Your birth months is from (July 23-August 22)",
+        "sVirgo": "Signs of your Zodiac: Virgin",
+        "bdVirgo": "Your birth months is from (August 23-September 22)",
+        "sLibra": "Signs of your Zodiac: Balance",
+        "bdLibra": "Your birth months is from (September 23-October 23)",
+        "sScorpius": "Signs of your Zodiac: Scorpion",
+        "bdScorpius": "Your birth months is from (October 24-November 21)",
+        "sSagittarius": "Signs of your Zodiac: Archer",
+        "bdSagittarius": "Your birth months is from (November 22-December 21)",
+        "sCapricornus": "Signs of your Zodiac: Goat",
+        "bdCapricornus": "Your birth months is from (December 22-January 19)",
+        "sAquarius": "Signs of your Zodiac: Water Bearer",
+        "bdAquarius": "Your birth months is from (January 20-February 18)",
+        "sPisces": "Signs of your Zodiac: Fish",
+        "bdPisces": "Your birth months is from (February 19-March 20)",
+        }
+if Zodiac == "aries":
+    print(Dict["sAries"])
+    print(Dict["bdAries"])
+
+elif Zodiac == "taurus":
+    print(Dict["sTaurus"])
+    print(Dict["bdTaurus"])
+
+elif Zodiac == "gemini":
+    print(Dict["sGemini"])
+    print(Dict["bdGemini"])
+
+elif Zodiac == "cancer":
+    print(Dict["sCancer"])
+    print(Dict["bdCancer"])
+
+elif Zodiac == "leo":
+    print(Dict["sLeo"])
+    print(Dict["bdLeo"])
+
+elif Zodiac == "virgo":
+    print(Dict["sVirgo"])
+    print(Dict["bdVirgo"])
+
+elif Zodiac == "libra":
+    print(Dict["sLibra"])
+    print(Dict["bdLibra"])
+
+elif Zodiac == "scorpius":
+    print(Dict["sScorpius"])
+    print(Dict["bdScorpius"])
+
+elif Zodiac == "sagittarius":
+    print(Dict["sSagittarius"])
+    print(Dict["bdSagittarius"])
+
+elif Zodiac == "capricornus":
+    print(Dict["sCapricornus"])
+    print(Dict["bdCapricornus"])
+
+elif Zodiac == "aquarius":
+    print(Dict["sAquarius"])
+    print(Dict["bdAquarius"])
+
+elif Zodiac == "pisces":
+    print(Dict["sPisces"])
+    print(Dict["bdPisces"])
