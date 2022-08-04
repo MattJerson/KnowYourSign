@@ -1,2 +1,2 @@
 # KnowYourSign
-A Python Program About Knowing Your Zodiac
+A Python Program About Knowing Your Sign
